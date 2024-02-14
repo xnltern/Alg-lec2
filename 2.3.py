@@ -1,0 +1,5 @@
+x = int(input("Введите число: "))
+y = int(input("Введите число: "))
+z = int(input("Введите число: "))
+L = 2*max(x,z) - 3*min(x,y,z)
+print(L)
